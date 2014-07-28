@@ -1,0 +1,43 @@
+{
+  "name": "passport-disqus",
+  "version": "0.1.0",
+  "description": "Disqus (OAuth2) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "disqus",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mihs/passport-disqus.git"
+  },
+  "bugs": {
+    "url": "http://github.com/mihs/passport-disqus/issues"
+  },
+  "author": {
+    "name": "Mihnea Scafes",
+    "email": "mihnea@nagemus.com",
+    "url": "https://github.com/mihs"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth2": "1.1.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readmeFilename": "README.md"
+}
